@@ -1,0 +1,120 @@
+/* ==== BASIS ==== */
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #222;
+    line-height: 1.6;
+  }
+  
+  /* ==== HEADER ==== */
+  header {
+    background-color: #810e0e;  /* Dein dunkles Rot */
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+    position: relative; /* Für Button-Positionierung */
+  }
+  
+  nav {
+    margin-top: 1em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+  }
+  
+  /* ==== HAUPTBEREICH ==== */
+  main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 0 1.5em;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+  }
+  
+  /* ==== BLOGPOSTS ==== */
+  .blog-post h2 {
+    font-size: 2em;
+    margin-bottom: 0.3em;
+  }
+  
+  .blog-post p {
+    margin: 1em 0;
+  }
+  
+  .blog-post em {
+    color: #666;
+    font-style: italic;
+  }
+  
+  /* ==== ZURÜCK-LINK UND LINKS IM MAIN ==== */
+  main a {
+    display: inline-block;
+    margin-top: 2em;
+    color: #810e0e;  /* Jetzt passend zum Header-Rot */
+    text-decoration: none;
+  }
+  
+  main a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ==== FOOTER ==== */
+  footer {
+    text-align: center;
+    padding: 2em;
+    margin-top: 4em;
+    font-size: 0.9em;
+    background-color: #eee;
+    color: #555;
+  }
+  
+  /* ==== DARK MODE BASIS ==== */
+  body.darkmode {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+  
+  body.darkmode header {
+    background-color: #1f1f1f;
+  }
+  
+  body.darkmode main {
+    background-color: #1e1e1e;
+    box-shadow: none;
+  }
+  
+  body.darkmode footer {
+    background-color: #1f1f1f;
+    color: #aaa;
+  }
+  
+  body.darkmode a {
+    color: #90caf9;
+  }
+  
+  /* ==== DARK MODE BUTTON ==== */
+  .toggle-darkmode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: #444;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    z-index: 10;
+  }
+  
+  .toggle-darkmode:hover {
+    background: #666;
+  }
+  
