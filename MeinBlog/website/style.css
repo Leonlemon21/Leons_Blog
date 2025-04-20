@@ -10,7 +10,7 @@ body {
   
   /* ==== HEADER ==== */
   header {
-    background-color: #810e0e;  /* Dein dunkles Rot */
+    background-color: #4861ce;  
     color: white;
     padding: 1.5em;
     text-align: center;
@@ -57,7 +57,7 @@ body {
   main a {
     display: inline-block;
     margin-top: 2em;
-    color: #810e0e;  /* Jetzt passend zum Header-Rot */
+    color: #4861ce;  
     text-decoration: none;
   }
   
@@ -117,4 +117,20 @@ body {
   .toggle-darkmode:hover {
     background: #666;
   }
+  .logo-container {
+    position: absolute;
+    top: 1rem;
+    left: 1rem; /* Statt right */
+  }
   
+  .logo {
+    height: 40px;
+    width: auto;
+    filter: drop-shadow(0 0 2px rgba(0,0,0,0.2));
+  }  
+  @media (max-width: 600px) {
+    .logo {
+      height: 30px;
+    }
+  }
+    
